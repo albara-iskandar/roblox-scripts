@@ -36,7 +36,7 @@
 ---------------------------------------------------------------------------
 local CONFIG = {
 	API = {
-		URL = "http://192.168.1.14:11434/api/tags", -- server address (chat requests always go to its /api/chat)
+		URL = "http://192.168.1.17:11434/api/tags", -- server address (chat requests always go to its /api/chat)
 		MODEL = "albara-2.0-4b",
 		TEMPERATURE = 0.6,
 		MAX_TOKENS = 300,        -- max tokens ALBARA may generate per decision
